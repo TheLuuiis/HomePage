@@ -15,6 +15,17 @@ body {
     background-color: #F2F9FE;
 }
 
+body,
+.nav-dark,
+.title,
+.text {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.logo {
+  display: block;
+}
+
 .container {
     width: 1749px;
     height: 850px;

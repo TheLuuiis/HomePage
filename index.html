@@ -17,25 +17,26 @@
     <script src="./js/index.js"></script>
   </head>
 
-  <body>
+  <body class="body">
     <!-- Container -->
     <div class="container">
       <!-- Header -->
       <header>
-        <img src="./resources/logo-light.svg" alt="logo">
+        <img src="./resources/logo-light.svg" alt="logo" class="logo logo-light">
+        <img class="logo logo-dark" src="./resources/logo-dark.svg" style="display: none;" alt="logo">
         <nav id="nav-menu">
           <ul>
             <li>
-              <a href="#" class="us">About us</a>
+              <a href="#" class="us nav-dark">About us</a>
             </li>
             <li>
-              <a href="#">Product</a>
+              <a href="#" class="nav-dark">Product</a>
             </li>
             <li>
-              <a href="#">Resource</a>
+              <a href="#" class="nav-dark">Resource</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#" class="nav-dark">Contact</a>
             </li>
           </ul>
         </nav>
@@ -48,16 +49,16 @@
           </label>
         </div>
       </header>
-      <!-- Container - Main -->
+      <!-- Container - Main --> 
       <main>
         <div class="description">
           <div class="simple">
-            <p>
+            <p class="text">
               😎 Simple way to communicate
             </p>
           </div>
-          <h1>Actions for Accessibility in Desing</h1>
-          <p>
+          <h1 class="title">Actions for Accessibility in Desing</h1>
+          <p class="text">
             The fastest way to build and deploy websites with resusable components.
           </p>
           <div class="container-buttons">
@@ -84,5 +85,7 @@
         </div>
       </main>
     </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
   </body>
 </html>
